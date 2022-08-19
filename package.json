@@ -1,0 +1,19 @@
+{
+  "name": "s",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo": "^2.34.0",
+    "apollo-server": "^3.10.1",
+    "graphql": "^16.6.0",
+    "lodash": "^4.17.21",
+    "server": "^1.0.37"
+  },
+  "description": ""
+}
