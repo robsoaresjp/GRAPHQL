@@ -1,0 +1,26 @@
+{
+  "env": {
+    "navegador": true,
+    "es2021": true,
+    "nó": true,
+    "brincadeira": true
+  },
+  "estende": [" eslint:recomendado ", " plugin: mais bonito/recomendado "],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersão": 12,
+    "sourceType": " modulo "
+  },
+  "plugins": [],
+  "regras": {
+    "no-unused-vars": [
+      " erro ",
+      {
+        "argsIgnorePattern": " ^_ ",
+        "varsIgnorePattern": " ^_ "
+      }
+    ]
+  }
+}

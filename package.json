@@ -1,9 +1,10 @@
 {
   "name": "s",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r sucrase/register src/index.js"
   },
   "keywords": [],
   "author": "",
@@ -11,9 +12,16 @@
   "dependencies": {
     "apollo": "^2.34.0",
     "apollo-server": "^3.10.1",
+    "git": "^0.1.5",
     "graphql": "^16.6.0",
     "lodash": "^4.17.21",
+    "node": "^16.17.0",
+    "npx": "^10.2.2",
     "server": "^1.0.37"
   },
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "sucrase": "^3.25.0"
+  }
 }
