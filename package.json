@@ -4,7 +4,8 @@
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon -r sucrase/register src/index.js"
+    "dev": "nodemon -r sucrase/register src/index.js",
+    "server": "json-server --watch db.json"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,7 @@
     "apollo-server": "^3.10.1",
     "git": "^0.1.5",
     "graphql": "^16.6.0",
+    "json-server": "^0.17.0",
     "lodash": "^4.17.21",
     "node": "^16.17.0",
     "npx": "^10.2.2",
